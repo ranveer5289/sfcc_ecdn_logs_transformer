@@ -5,7 +5,7 @@ SFCC provides multiple ways to generate eCDN-WAF log files. One of the way is to
 
 [W3C log format](https://www.w3.org/TR/WD-logfile.html) is an official standard. These are plain text files.
 
-W3C log format is one of the format which is accepted by SEO log file analyzer like [Screaming Frog](https://www.screamingfrog.co.uk/log-file-analyser/)
+W3C log format is one of the format which is accepted by SEO log file analyzer like [Screaming Frog](https://www.screamingfrog.co.uk/log-file-analyser/). Other log format supported by Screaming Frog are Apache Logs, HAProxy
 
 ## Usage
 
