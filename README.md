@@ -1,5 +1,5 @@
-# SFCC_ECDN_LOGS_TO_W3C
-Tool for converting Salesforce Commerce Cloud CloudFlare eCDN-WAF log to standard W3C log format
+# SFCC E-CDN log transformer
+Tool for converting Salesforce Commerce Cloud CloudFlare eCDN-WAF log to standard log formats like W3C
 
 SFCC provides multiple ways to generate eCDN-WAF log files. One of the way is to use [OCAPI](https://documentation.b2c.commercecloud.salesforce.com/DOC1/topic/com.demandware.dochelp/Admin/WAF_LogOCAPIReferences.html?) to download these log files.
 
