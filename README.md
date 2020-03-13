@@ -11,13 +11,14 @@ W3C log format is one of the format which is accepted by SEO log file analyzer l
 
 ```python
 python3 log_transformer.py -h
-usage: log_transformer.py [-h] [-i INPUT] [-o OUTPUT] [-s]
+usage: log_transformer.py [-h] [-i INPUT] [-o OUTPUT] [-f FORMAT] [-s]
 
 optional arguments:
   -h, --help  show this help message and exit
   -i INPUT    Existing Input directory from which SFCC logs file will be read
   -o OUTPUT   Existing Output directory to which transformed W3C logs will be
               written
+  -f FORMAT   Output log format. Eg: Apache, W3C
   -s          SFCC cache fingerprint will be removed from URL
 ```
 
