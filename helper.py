@@ -56,7 +56,7 @@ def get_data_from_cdn_logs(record, strip):
     """
     lines = []
     edge_start_timestamp = record['EdgeStartTimestamp']
-    # nanoseconds to milliseconds
+    # nanoseconds to seconds
     timestamp_in_seconds = edge_start_timestamp / 1000000000
     date_from_timestamp = datetime.datetime.utcfromtimestamp(timestamp_in_seconds)
 
